@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    outline: none;
+    box-sizing: border-box;;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -21,6 +19,8 @@
     flex-grow: 1;
 }
 
+/* Header section */
+
 header {
     background-color: sienna;
     height: 100px;
@@ -30,6 +30,8 @@ header {
     padding: 20px 80px;
     box-shadow: 0 1px 5px 1px black;
 }
+
+/* Search bar */
 
 header .search-bar {
     width: 40rem;
@@ -56,12 +58,25 @@ header .search-bar button {
     box-shadow: 0px 1px 5px 1px black;
 }
 
+/* Navbar */
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 footer {
     width: 100%;
     height: 120px;
     background-color: sienna;
-    /* border-top: black solid 1px; */
     box-shadow: 0 -1px 5px 1px black;
-    /* flex-grow: 2; */
     /* visibility: hidden; */
 }
